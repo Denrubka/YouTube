@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header {
+  padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 59px;
+}
+.logo-img {
+  display: block;
+}
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  width: 20px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.menu-line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #1f2022;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 830px;
+  width: 50%;
+  border-radius: 22px;
+  padding-right: 17px;
+}
+.search-input {
+  padding: 12px 0 12px 24px;
+  border: none;
+  width: 100%;
+}
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.user-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.user-menu__link {
+  text-decoration: none;
+  opacity: 0.24;
+  transition: opacity 0.1s linear;
+}
+.user-menu__link:hover {
+  opacity: 0.8;
+}
+.user-menu__link:not(:last-child) {
+  margin-right: 50px;
+}
+.user-link {
+  margin-left: 45px;
+}
+.user-img {
+  border-radius: 50%;
+}
+.sidebar {
+  padding-left: 32px;
+}
+.nav-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 58px;
+  list-style: none;
+}
+.nav-item:not(:last-child) {
+  margin-bottom: 28px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #898989;
+}
+.nav-link .icon {
+  fill: #000;
+  opacity: 0.24;
+}
+.nav-link:hover {
+  color: #ff0000;
+  opacity: 1;
+}
+.nav-link:hover .icon {
+  fill: #ff0000;
+  opacity: 0.8;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.nav-link .icon-chevron-down {
+  margin-right: 3px;
+}
+.nav-img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
